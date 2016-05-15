@@ -1,5 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "game.h"
+#include "dialog.h"
+
+extern Dialog *dialog;
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -16,5 +20,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    game = new Game();
+    Game*game =new Game();
+    game->show();
 }

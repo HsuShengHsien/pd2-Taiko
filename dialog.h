@@ -13,6 +13,7 @@ public:
     QPushButton *button1;
     QPushButton *button2;
 
+
 };
 
 

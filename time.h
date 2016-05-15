@@ -11,13 +11,10 @@ class Time:public QGraphicsTextItem{
 
 public:
     Time(QGraphicsItem *parent = 0);
-    int getTime();
+    int time;
 
 public slots:
     void decrease();
-
-private:
-    int time;
 
 };
 

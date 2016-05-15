@@ -16,22 +16,22 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     game.cpp \
     score.cpp \
-    dkgen.cpp \
     time.cpp \
     dialog.cpp \
-    finalscore.cpp \
     generator.cpp \
-    target.cpp
+    target.cpp \
+    dgen.cpp \
+    kgen.cpp
 
 HEADERS  += mainwindow.h \
     game.h \
     score.h \
-    dkgen.h \
     time.h \
     dialog.h \
-    finalscore.h \
     generator.h \
-    target.h
+    target.h \
+    dgen.h \
+    kgen.h
 
 FORMS    += mainwindow.ui
 

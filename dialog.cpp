@@ -1,5 +1,5 @@
 #include "dialog.h"
-
+#include <QTimer>
 
 Dialog::Dialog(){
     scene = new QGraphicsScene();
@@ -17,7 +17,13 @@ Dialog::Dialog(){
     button2->setGeometry(325,200,80,50);
     QObject::connect(button2,SIGNAL(clicked()),this,SLOT(close()));
 
+    QTimer *timer = new QTimer(this);
+    QTimer::singleShot(30000,this,SLOT(show()));
+    timer->start(1000);
+    QTimer::singleShot(31000,timer,SLOT(stop()));
 
 }
+
+
 
 
