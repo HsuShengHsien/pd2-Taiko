@@ -1,0 +1,10 @@
+#ifndef SPAWN_H
+#define SPAWN_H
+
+#include "dkgen.h"
+
+class G{
+    spawn;
+};
+        
+#endif // SPAWN_H

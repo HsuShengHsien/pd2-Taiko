@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file>img/bg.png</file>
+        <file>img/start.jpg</file>
+        <file>img/note_bd.png</file>
+        <file>img/note_bk.png</file>
+        <file>img/note_d.png</file>
+        <file>img/note_k.png</file>
+        <file>img/note1.png</file>
+        <file>img/player.png</file>
+        <file>img/target.png</file>
+    </qresource>
+</RCC>
